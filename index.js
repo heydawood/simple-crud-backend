@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
 });
 
 
-mongoose.connect('mongodb+srv://dawoodfaisal19:admin@backenddb.de29y.mongodb.net/Node-API?retryWrites=true&w=majority&appName=BackendDB')
+mongoose.connect('mongodb+srv://[your username]:[your password]@backenddb.de29y.mongodb.net/Node-API?retryWrites=true&w=majority&appName=BackendDB')
     .then(() => {
         app.listen(3000, () => {
             console.log('Server is running on port 3000');
